@@ -1,0 +1,65 @@
+div#hero {
+  background-image: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?cs=srgb&dl=pexels-pixabay-326055.jpg&fm=jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div#hero h1 {
+  text-align: center;
+  color: azure;
+  font-size: 50px;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 150px;
+}
+
+div#place {
+  margin-left: 150px;
+}
+
+div#place input.place-been {
+  border: 2px dotted blue;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+div#place ul {
+  border: 3px solid rgb(107, 89, 209);
+  width: 150px;
+}
+
+div#place ul li {
+  border-bottom: 1px solid rgb(7, 7, 59);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/*Place been code end*/
+
+div#places-to-see {
+  margin-left: 800px;
+  padding-top: 100px;
+}
+
+div#places-to-see input.place-see {
+  border: 2px dotted rgb(59, 74, 131);
+  width: 400px;
+  padding: 10px;
+  font-style: 16px;
+}
+
+div#places-to-see ol {
+  border: 3px solid rgb(56, 55, 55);
+  width: 150px;
+}
+div#places-to-see ol li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/*place to see code end */
